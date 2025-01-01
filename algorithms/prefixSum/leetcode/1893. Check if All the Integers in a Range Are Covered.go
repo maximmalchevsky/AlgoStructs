@@ -1,13 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	a := []int{2, 3, -1, 8, 4}
-	fmt.Println(findMiddleIndex(a))
-}
+package leetcode
 
 func isCovered(ranges [][]int, left int, right int) bool {
 	arr := make([]int, 52)
